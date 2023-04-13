@@ -1,6 +1,6 @@
-// ****
-// ***
-// **
+// * * * *
+// * * *
+// * *
 // *
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main()
     {
         for(int j = 1; j<=n+1-i; j++)       //logic: i+j = n+1
         {
-            printf("*");
+            printf("*  ");
         }
         printf("\n");
     }
