@@ -12,10 +12,13 @@ int main()
     scanf("%d", &n);
     for(int i = 1; i<=n; i++)
     {
+        int a = 1;    //the position of this has to be inside so as to reset the value of a     before the next iteration of the inner loop.
+
         for(int j = 1; j<=i; j++)
         {
-            printf("%d ", j);
-        }
+            printf("%d ", a);
+            a = a + 2;
+        }        
         printf("\n");
     }
 
