@@ -21,7 +21,7 @@ int main()
     int rem = b % a;    //modular operator
     int quot = b / a;
     int power = pow(b,c);
-    printf("%d", sum);
+    printf("%d \n", sum);
 
     //type conversion: when a int and float is operated tpogether then the type of the product is converted to the bigger space;
     int h = 4;
@@ -39,4 +39,4 @@ int main()
     //assignment operators: =, +=, -=, /=, *=
     
     return 0; 
-}
+}  
