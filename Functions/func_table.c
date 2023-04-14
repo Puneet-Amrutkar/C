@@ -14,7 +14,7 @@ int main()
 
 int table(int number)     //params for the function call and function def or prot may not be same.
 {
-    for(int i = 1; i<=10; i++)
+    for (int i = 1; i<=10; i++)
     {
         printf("%d \n", (i*number));
     }

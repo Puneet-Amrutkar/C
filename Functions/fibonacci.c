@@ -40,11 +40,11 @@ int main()
 
 int fibonacci(int limit)
 {
-    if(limit == 0)
+    if (limit == 0)
     {
         return 0;
     }
-    if(limit == 1)
+    if (limit == 1)
     {
         return 1;
     }

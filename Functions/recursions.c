@@ -15,7 +15,7 @@ int main()
 //recursive function
 int sum(int x)
 {
-    if(x == 1)
+    if (x == 1)
     {
         return 1;
     }
@@ -26,7 +26,7 @@ int sum(int x)
 
 int factorial(int y)
 {
-    if(y == 1)
+    if (y == 1)
     {
         return 1;
     }
