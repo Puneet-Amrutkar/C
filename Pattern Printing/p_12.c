@@ -11,21 +11,21 @@ int main()
     int n;
     printf("Enter the number of rows");
     scanf("%d", &n);
-    for(int i = 1; i<=n; i++)
+    for (int i = 1; i<=n; i++)
     {
         int a = 1;
-        if(i == (n/2+1))
+        if (i == (n/2+1))
         {
-            for(int j = 1; j<=n; j++)
+            for (int j = 1; j<=n; j++)
             {
                 printf("# ");
             }
         }
         else
         {
-            for(int j = 1; j<=n; j++)
+            for (int j = 1; j<=n; j++)
             {
-                if(n%2 != 0 && j == (n/2+1))
+                if (n%2 != 0 && j == (n/2+1))
                 {
                     printf("# ");
                     a++;

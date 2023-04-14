@@ -12,9 +12,9 @@ int main()
     printf("Enter the number of rows and columns");
     scanf("%d", &n);
     scanf("%d", &m);
-    for(int i = 1; i<=n; i++)
+    for (int i = 1; i<=n; i++)
     {
-        for(int j = 1; j<=m; j++)
+        for (int j = 1; j<=m; j++)
         {
             if (i == j || i + j == n + 1)
             { 

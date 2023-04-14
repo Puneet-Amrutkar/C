@@ -10,9 +10,9 @@ int main()
     int n;
     printf("Enter the number of rows");
     scanf("%d", &n);
-    for(int i = 1; i<=n; i++)
+    for (int i = 1; i<=n; i++)
     {
-        for(int j = 1; j<=n+1-i; j++)       //logic: i+j = n+1
+        for (int j = 1; j<=n+1-i; j++)       //logic: i+j = n+1
         {
             printf("*  ");
         }
@@ -21,9 +21,9 @@ int main()
 
     //OR method
     int a = n;
-    for(int i = 1; i<=n; i++)
+    for (int i = 1; i<=n; i++)
     {
-        for(int j = 1; j<=a; j++)
+        for (int j = 1; j<=a; j++)
         {
             printf("*");
         }
